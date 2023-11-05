@@ -5,16 +5,11 @@ VSCodePackageManager is a Visual Studio Code extension that allows you to easily
 
 ## Features
 
-Core Features:
 Seamless Integration: The extension integrates flawlessly with VS Code, providing an intuitive and accessible user interface directly within the editor.
 
 File Packaging: Users can easily package multiple files into a single compressed file directly from the VS Code environment, streamlining the process of file management.
 
 File Unpacking: The extension allows for quick unpacking of compressed files, supporting various formats, thus enhancing productivity by reducing the need for external tools.
-
-Customizable Settings: Offers customizable settings to tailor the packing and unpacking processes to individual user needs, such as setting compression levels or choosing specific file types to include or exclude.
-
-Preview Options: Before packaging, users can preview the files to be included, giving them the confidence that they're compressing the correct data.
 
 Drag-and-Drop Functionality: Users can drag and drop files or folders directly into the panel to add them to a package or to extract them, providing a user-friendly experience.
 
@@ -24,18 +19,7 @@ Cross-Platform Support: Works across different operating systems, ensuring a con
 
 Automation Support: Offers command-line features that can be integrated into scripts for automated packing and unpacking, fitting seamlessly into DevOps workflows.
 
-Unique Selling Points:
-Context-Aware Operations: The extension can intelligently suggest files for packaging based on the user's current project context, saving time and reducing the likelihood of errors.
-
-Real-Time Compression Estimation: It provides real-time updates on the estimated compression size and ratio, helping users make informed decisions about their file packaging.
-
-Integrated File Conflict Resolution: Automatically detects and helps resolve file conflicts during unpacking, ensuring a smooth workflow.
-
-History and Undo Functionality: Maintains a history of packaging/unpacking actions with the ability to undo recent changes, providing a safety net for accidental operations.
-
 Extension Personalization: Allows users to personalize the look and feel of the panel interface, creating a comfortable and productive environment.
-
-Security Features: Offers encryption options for packaged files, ensuring secure distribution and storage of sensitive data.
 
 Multi-language Support: Localized in several languages, this feature makes the extension accessible to a global audience, breaking down language barriers.
 
