@@ -1,7 +1,7 @@
 # testing-pp README
-# VSCodePackageManager
+# VSCode Package Manager
 
-VSCodePackageManager is a Visual Studio Code extension that allows you to easily manage file packaging and unpacking within the editor.
+VSCode Package Manager is a Visual Studio Code extension that allows you to easily manage file packaging and unpacking within the editor.
 
 ## Features
 
