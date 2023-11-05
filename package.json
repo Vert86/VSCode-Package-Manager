@@ -1,0 +1,51 @@
+{
+  "name": "testing-pp",
+  "displayName": "ProjectPackager",
+  "description": "It packages and unppack unique files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onCommand:yourExtension.showPanel"],
+  "main": "./out/src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "testing-pp.showPanel",
+        "title": "Show My Extension Panel"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "@types/react": "^18.2.34",
+    "@types/react-dom": "^18.2.14",
+    "@types/vscode": "^1.84.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@vscode/test-electron": "^2.3.6",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
