@@ -1,71 +1,56 @@
 # testing-pp README
+# VSCodePackageManager
 
-This is the README for your extension "testing-pp". After writing up a brief description, we recommend including the following sections.
+VSCodePackageManager is a Visual Studio Code extension that allows you to easily manage file packaging and unpacking within the editor.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Describe the core features of your extension.
+- Outline any unique selling points or functionality.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+To install VSCodePackageManager:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+3. Search for "VSCodePackageManager".
+4. Click on the Install button.
 
-## Requirements
+Alternatively, you can install it via the Command Palette:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+2. Type `ext install` followed by the extension's name, like `ext install vscodepackagemanager`.
 
-## Extension Settings
+## Compilation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+To compile the extension from the source:
 
-For example:
+1. Clone the repository:
 
-This extension contributes the following settings:
+   ```bash
+   git clone https://github.com/Vert86/VSCodePackageManager.git
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Navigate to the cloned directory:
 
-## Known Issues
+cd VSCodePackageManager
+Install dependencies:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+npm install
+Compile the TypeScript files (if applicable):
 
-## Release Notes
+npm run compile
 
-Users appreciate release notes as you update your extension.
+Activation
+To activate the extension:
 
-### 1.0.0
+Open a project in Visual Studio Code.
+Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on Mac).
+Type testing-pp.showPanel and hit Enter.
+This will open the webview panel where you can use the features of the VSCodePackageManager.
 
-Initial release of ...
+Screenshot
+VSCodePackageManager Extension Panel
+## Screenshot
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![VSCodePackageManager Panel](extension_screenshot.png "VSCodePackageManager Extension Panel")
